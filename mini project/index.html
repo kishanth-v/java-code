@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Management System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>🎓 Student Management System</h1>
+    </header>
+
+    <!-- Main Container -->
+    <div class="container">
+
+        <!-- Dashboard -->
+        <section class="dashboard">
+            <div class="card">
+                <h3>Total Students</h3>
+                <p>120</p>
+            </div>
+            <div class="card">
+                <h3>Departments</h3>
+                <p>6</p>
+            </div>
+            <div class="card">
+                <h3>New Admissions</h3>
+                <p>18</p>
+            </div>
+        </section>
+
+        <!-- Student Form -->
+        <section class="form-section">
+            <h2>Add Student</h2>
+            <form>
+                <input type="text" placeholder="Student Name">
+                <input type="text" placeholder="Roll Number">
+                <input type="text" placeholder="Department">
+                <input type="number" placeholder="Age">
+                <input type="email" placeholder="Email">
+                <button type="submit">Add Student</button>
+            </form>
+        </section>
+
+        <!-- Student Table -->
+        <section class="table-section">
+            <h2>Student List</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Roll No</th>
+                        <th>Department</th>
+                        <th>Age</th>
+                        <th>Email</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Arun Kumar</td>
+                        <td>CS101</td>
+                        <td>Computer Science</td>
+                        <td>20</td>
+                        <td>arun@gmail.com</td>
+                        <td>
+                            <button class="edit">Edit</button>
+                            <button class="delete">Delete</button>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2026 Student Management | Designed by Kishanth</p>
+    </footer>
+
+</body>
+</html>
